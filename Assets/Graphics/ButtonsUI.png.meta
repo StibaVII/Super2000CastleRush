@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 18cc42cb0b5e26a49804197ab2dc51c4
+timeCreated: 1460958127
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonsUI_0
+    21300002: ButtonsUI_1
+    21300004: ButtonsUI_2
+    21300006: ButtonsUI_3
+    21300008: ButtonsUI_4
+    21300010: ButtonsUI_5
+    21300012: ButtonsUI_6
+    21300014: ButtonsUI_7
+    21300016: ButtonsUI_8
+    21300018: ButtonsUI_9
+    21300020: ButtonsUI_10
+    21300022: ButtonsUI_11
+    21300024: ButtonsUI_12
+    21300026: ButtonsUI_13
+    21300028: ButtonsUI_14
+    21300030: ButtonsUI_15
+    21300032: ButtonsUI_16
+    21300034: ButtonsUI_17
+    21300036: ButtonsUI_18
+    21300038: ButtonsUI_19
+    21300040: ButtonsUI_21
+    21300042: ButtonsUI_22
+    21300044: Empty Button 1
+    21300046: + 1
+    21300048: V 1
+    21300050: X 1
+    21300052: ButtonsUI_27
+    21300054: Empty Button 2
+    21300056: YesNo 3
+    21300058: + 2
+    21300060: V 2
+    21300062: X 2
+    21300064: ButtonsUI_33
+    21300066: YesNo 4
+    21300068: + 3
+    21300070: V 3
+    21300072: X 3
+    21300074: ButtonsUI_38
+    21300076: Empty Button 3
+    21300078: ButtonsUI_40
+    21300080: ButtonsUI_41
+    21300082: YesNo 2
+    21300084: YesNo 1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Empty Button 1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 149
+        width: 85
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: + 1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 119
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: V 1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 119
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: X 1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 119
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Empty Button 2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 106
+        width: 85
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: YesNo 3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: + 2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 87
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: V 2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 87
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: X 2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 87
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: YesNo 4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 72
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: + 3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 55
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: V 3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 55
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: X 3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 54
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Empty Button 3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 59
+        width: 86
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 16.5}
+        - {x: -43, y: -15.5}
+        - {x: -41, y: -16.5}
+        - {x: 43, y: -16.5}
+        - {x: 43, y: 16.5}
+    - name: YesNo 2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 119
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: YesNo 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
