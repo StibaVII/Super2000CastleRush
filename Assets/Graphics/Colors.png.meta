@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 910b7f3e89fd84d42b5055375e34fc44
+timeCreated: 1461033392
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Colors_0
+    21300002: Colors_1
+    21300004: Colors_2
+    21300006: Colors_3
+    21300008: Colors_4
+    21300010: Colors_5
+    21300012: Colors_6
+    21300014: Colors_7
+    21300016: Colors_8
+    21300018: Colors_9
+    21300020: Colors_10
+    21300022: Colors_11
+    21300024: Colors_12
+    21300026: Colors_13
+    21300028: Colors_14
+    21300030: Colors_15
+    21300032: Colors_16
+    21300034: Colors_17
+    21300036: Colors_18
+    21300038: Colors_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Colors_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 160
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 157
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 158
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 157
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 167
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 107
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 121
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 111
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 56
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 70
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 16
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 69
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 67
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 19
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Colors_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 14
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
