@@ -17,7 +17,7 @@ public class Buttons : MonoBehaviour {
 	}
 	public void Play(){
 		Debug.Log ("Game Start");
-		Application.LoadLevel(0);
+		Application.LoadLevel(1);
     }
 
     public void Options()
