@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Generate : MonoBehaviour {
 
@@ -15,6 +16,12 @@ public class Generate : MonoBehaviour {
     public Canvas canvas;
     public float curEnemyNumber = 0f;
     public int nextWave = 0;
+	float waveTimer;
+    public int waitNextWave = 10;
+    GameObject castle;
+    public GameObject waitingPanel;
+    public Text waitingNumber;
+    public GameObject winPanel;
 
     // Use this for initialization
     void Start()
@@ -25,24 +32,38 @@ public class Generate : MonoBehaviour {
 
     void Update()
     {
-
-        float curWave = waveNumber[nextWave];
-        float maxEnemy = enemyNumber[nextWave];
-        if (curWave < waveNumber.Length)
+        castle = GameObject.FindGameObjectWithTag("Fort");
+        Castle Script1 = castle.GetComponent<Castle>();
+        if (Script1.dead == false)
         {
-            timer += Time.deltaTime;
-            if (curEnemyNumber < maxEnemy && timer > spawnTimer)
+            float curWave = waveNumber[nextWave];
+            float maxEnemy = enemyNumber[nextWave];
+            if (curWave <= waveNumber.Length)
             {
-                CreateObstacle();
-                curEnemyNumber++;
-                Debug.Log(curEnemyNumber);
-                timer = 0;
-            }
-            if (curEnemyNumber == maxEnemy && GameObject.FindGameObjectWithTag("Enemy") == null)
-            {
-                nextWave++;
-                curEnemyNumber = 0;
-                timer = 0;
+                timer += Time.deltaTime;
+                if (curEnemyNumber < maxEnemy && timer > spawnTimer)
+                {
+                    CreateObstacle();
+                    curEnemyNumber++;
+                    Debug.Log(curEnemyNumber);
+                    timer = 0;
+                }
+                if (curEnemyNumber == maxEnemy && GameObject.FindGameObjectWithTag("Enemy") == null)
+                {
+                    waitingPanel.SetActive(true);
+                    float roundedTime = waitNextWave - waveTimer;
+                    roundedTime = Mathf.Round(roundedTime);
+                    waitingNumber.text = roundedTime.ToString();
+                    waveTimer += Time.deltaTime;
+                    if (waveTimer > waitNextWave && curWave <= waveNumber.Length)
+                    {
+                        waitingPanel.SetActive(false);
+                        nextWave++;
+                        curEnemyNumber = 0;
+                        timer = 0;
+                        waveTimer = 0;
+                    }   
+                }
             }
         }
     }
@@ -55,5 +76,10 @@ public class Generate : MonoBehaviour {
         enemiesSpawned.transform.SetParent(canvas.transform);
         enemiesSpawned.transform.localPosition = spawnPosition;
         enemiesSpawned.transform.localScale = spawnScale;
+    }
+
+    public void SkipWait()
+    {
+        waveTimer = 10000;
     }
 }

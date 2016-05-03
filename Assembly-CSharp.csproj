@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Arrow.cs" />
      <Compile Include="Assets\Scripts\Buttons.cs" />
+     <Compile Include="Assets\Scripts\Castle.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Generate.cs" />
      <Compile Include="Assets\Scripts\Projectiles.cs" />

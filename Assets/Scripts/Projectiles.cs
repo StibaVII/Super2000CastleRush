@@ -10,6 +10,7 @@ public class Projectiles : MonoBehaviour {
     public float scaley = 3f;
 	public float amount = 2000000f;
     public GameObject hero;
+	GameObject castle;
 
 	// Use this for initialization
 	void Start () {
@@ -18,9 +19,14 @@ public class Projectiles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetMouseButtonDown(0))
+        castle = GameObject.FindGameObjectWithTag("Fort");
+        Castle Script1 = castle.GetComponent<Castle>();
+        if (Script1.dead == false)
         {
-            CreateArrow();
+            if (Input.GetMouseButtonDown(0))
+            {
+                CreateArrow();
+            }
         }
 	}
 
